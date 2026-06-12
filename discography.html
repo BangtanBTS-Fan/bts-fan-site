@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Discography — BTS Fan Site</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <h1 class="logo"><a href="index.html">BTS Fan Site</a></h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="discography.html">Discography</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="fanworks.html">Fanworks</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="disc-search">
+    <input id="search" type="search" placeholder="Search albums, year or track..." />
+    <select id="filter-type">
+      <option value="all">All types</option>
+      <option value="Album">Studio Album</option>
+      <option value="EP">EP</option>
+      <option value="Single">Single</option>
+      <option value="Live">Live</option>
+    </select>
+  </section>
+
+  <section id="discography-list" class="discography-grid"></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Discography data: for fan reference only. Replace placeholder covers with official images you host or link.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
